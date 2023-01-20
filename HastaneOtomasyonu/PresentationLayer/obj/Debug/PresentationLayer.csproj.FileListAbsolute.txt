@@ -1,0 +1,34 @@
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\bin\Debug\PresentationLayer.exe
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\bin\Debug\PresentationLayer.pdb
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\bin\Debug\Business.dll
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\bin\Debug\DataAccess.dll
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\bin\Debug\Entities.dll
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\bin\Debug\Business.pdb
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\bin\Debug\DataAccess.pdb
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\bin\Debug\Entities.pdb
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.Form1.resources
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.exe
+C:\Users\İbrahim\Desktop\Görsel Final\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.pdb
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\bin\Debug\PresentationLayer.exe
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\bin\Debug\PresentationLayer.pdb
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\bin\Debug\Business.dll
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\bin\Debug\DataAccess.dll
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\bin\Debug\Entities.dll
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\bin\Debug\Business.pdb
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\bin\Debug\DataAccess.pdb
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\bin\Debug\Entities.pdb
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.Form1.resources
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.exe
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.pdb
