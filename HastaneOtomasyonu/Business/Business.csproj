@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IDoktorServices.cs" />
     <Compile Include="Abstract\ISekreterServices.cs" />
+    <Compile Include="Concrete\DoktorManager.cs" />
     <Compile Include="Concrete\SekreterManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

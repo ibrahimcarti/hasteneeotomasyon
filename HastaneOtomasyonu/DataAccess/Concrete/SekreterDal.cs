@@ -81,13 +81,13 @@ namespace DataAccess.Concrete
             using (OleDbConnection connection = new OleDbConnection(server))
             {
                 connection.Open();
-                string query = "UPDATE Sekreterler SET sekreter_adi = @sekreteradi, sekreter_soyadi = @sekretersoyadi, sekreter_tel = @sekretertel WHERE sekreter_id = @sekreter_id";
+                string query = "UPDATE Sekreterler SET sekreter_adi = @sekreteradi, sekreter_soyadi = @sekretersoyadi, sekreter_tel = @sekretertel WHERE sekreter_id = @sekreterid";
                 using (OleDbCommand command = new OleDbCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@sekreteradi", sekreter.sekreter_adi);
                     command.Parameters.AddWithValue("@sekretersoyadi", sekreter.sekreter_soyadi);
-                    command.Parameters.AddWithValue("@sekreterid", sekreter.sekreter_id);
                     command.Parameters.AddWithValue("@sekretertel", sekreter.sekreter_tel);
+                    command.Parameters.AddWithValue("@sekreterid", sekreter.sekreter_id);
                     command.ExecuteNonQuery();
                 }
             }

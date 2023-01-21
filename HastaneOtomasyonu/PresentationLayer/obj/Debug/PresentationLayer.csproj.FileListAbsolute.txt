@@ -32,3 +32,5 @@ C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\D
 C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete
 C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.exe
 C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.pdb
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.FormAnasayfa.resources
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.FormDoktorIslemleri.resources
