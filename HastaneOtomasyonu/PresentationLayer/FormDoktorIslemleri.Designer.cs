@@ -426,6 +426,7 @@ namespace PresentationLayer
             this.Name = "FormDoktorIslemleri";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormDoktorIslemleri";
+            this.Load += new System.EventHandler(this.FormDoktorIslemleri_Load);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

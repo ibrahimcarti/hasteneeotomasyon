@@ -16,3 +16,12 @@ C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\DataAccess\obj\Debug\Da
 C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
 C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\DataAccess\bin\Debug\Entities.dll
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\DataAccess\bin\Debug\Entities.pdb
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\DataAccess\obj\Debug\DataAccess.pdb

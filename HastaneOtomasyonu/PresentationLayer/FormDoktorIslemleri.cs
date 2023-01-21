@@ -102,5 +102,10 @@ namespace PresentationLayer
             FormDoktorIslemleri frm1 = new FormDoktorIslemleri();
             frm1.Dispose();
         }
+
+        private void FormDoktorIslemleri_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

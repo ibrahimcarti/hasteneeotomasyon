@@ -20,3 +20,14 @@ C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\Business\obj\Debug\Busi
 C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\Business\obj\Debug\Business.csproj.CopyComplete
 C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\Business\obj\Debug\Business.dll
 C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\Business\obj\Debug\Business.pdb
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\Business\bin\Debug\Business.dll
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\Business\bin\Debug\Business.pdb
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\Business\bin\Debug\DataAccess.dll
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\Business\bin\Debug\Entities.dll
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\Business\bin\Debug\DataAccess.pdb
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\Business\bin\Debug\Entities.pdb
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\Business\obj\Debug\Business.dll
+C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\Business\obj\Debug\Business.pdb

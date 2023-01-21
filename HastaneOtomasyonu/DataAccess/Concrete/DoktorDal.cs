@@ -11,7 +11,7 @@ namespace DataAccess.Concrete
 {
     public class DoktorDal : IDoktorDal
     {
-        private string server = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\İbrahim\\Desktop\\GörselFinal\\HastaneVeriTabanı.mdb;";
+        private string server = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\mazen\\Desktop\\HastaneVeriTabanı.mdb;";
         public void Add(Doktor doktor)
         {
             using (OleDbConnection connection = new OleDbConnection(server))
@@ -81,14 +81,15 @@ namespace DataAccess.Concrete
             using (OleDbConnection connection = new OleDbConnection(server))
             {
                 connection.Open();
-                string query = "UPDATE Doktorlar SET doktor_adi = @doktoradi, doktor_soyadi = @doktorsoyadi, doktor_tel = @doktortel, doctor_brans = @doktorbrans WHERE doktor_id = @doktorid";
+
+                string query = "UPDATE Doktorlar SET doktor_adi = @doktoradi, doktor_soyadi = @doktorsoyadi, doktor_tel= @doktortel, doktor_brans = @brans WHERE doktor_id = @id";
                 using (OleDbCommand command = new OleDbCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@doktoradi", doktor.doktor_adi);
                     command.Parameters.AddWithValue("@doktorsoyadi", doktor.doktor_soyadi);
                     command.Parameters.AddWithValue("@doktortel", doktor.doktor_tel);
                     command.Parameters.AddWithValue("@doktorbrans", doktor.doktor_brans);
-                    command.Parameters.AddWithValue("@doktorid", doktor.doktor_id);
+                    command.Parameters.AddWithValue("@id", doktor.doktor_id);
                     command.ExecuteNonQuery();
                 }
             }
