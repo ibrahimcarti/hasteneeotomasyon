@@ -53,3 +53,7 @@ C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\Presentation
 C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete
 C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.exe
 C:\Users\mazen\Documents\GitHub\hasteneeotomasyon\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.pdb
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.FormHastaIslemleri.resources
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.FormRandevuIslemleri.resources
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.FormLogin.resources
+C:\Users\İbrahim\Desktop\GörselFinal\HastaneOtomasyonu\PresentationLayer\obj\Debug\PresentationLayer.FormDoktor.resources

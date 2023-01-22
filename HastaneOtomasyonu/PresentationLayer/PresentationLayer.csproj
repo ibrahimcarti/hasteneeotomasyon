@@ -58,11 +58,35 @@
     <Compile Include="FormAnasayfa.Designer.cs">
       <DependentUpon>FormAnasayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDoktor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDoktor.Designer.cs">
+      <DependentUpon>FormDoktor.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDoktorIslemleri.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormDoktorIslemleri.Designer.cs">
       <DependentUpon>FormDoktorIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHastaIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHastaIslemleri.Designer.cs">
+      <DependentUpon>FormHastaIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRandevuIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRandevuIslemleri.Designer.cs">
+      <DependentUpon>FormRandevuIslemleri.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,8 +96,20 @@
     <EmbeddedResource Include="FormAnasayfa.resx">
       <DependentUpon>FormAnasayfa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDoktor.resx">
+      <DependentUpon>FormDoktor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDoktorIslemleri.resx">
       <DependentUpon>FormDoktorIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHastaIslemleri.resx">
+      <DependentUpon>FormHastaIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRandevuIslemleri.resx">
+      <DependentUpon>FormRandevuIslemleri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -129,6 +165,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\6040297_asian_coronavirus_doctor_male_n-95 mask_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospitalisation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical-appointment.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

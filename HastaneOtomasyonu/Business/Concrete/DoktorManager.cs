@@ -13,28 +13,44 @@ namespace Business.Concrete
     {
 
         IDoktorDal _doktordal;
-        public DoktorManager(IDoktorDal doktordal)
+        ISekreterDal _sekreterdal;
+        IHastaDal _hastadal;
+        IRandevuDal _randevudal;
+
+        public DoktorManager(ISekreterDal sekreterdal, IHastaDal hastadal, IDoktorDal doktordal, IRandevuDal randevudal)
         {
+            _sekreterdal = sekreterdal;
+            _hastadal = hastadal;
             _doktordal = doktordal;
+            _randevudal = randevudal;
         }
-        public void Add(Doktor doktor)
-        {
-            _doktordal.Add(doktor);
-        }
+        //public void Add(Doktor doktor)
+        //{
+        //    _doktordal.Add(doktor);
+        //}
 
-        public void Delete(int doktor_id)
-        {
-            _doktordal.Delete(doktor_id);
-        }
+        //public void Delete(int doktor_id)
+        //{
+        //    _doktordal.Delete(doktor_id);
+        //}
 
-        public List<Doktor> GetAllDoktor()
-        {
-            return _doktordal.GetAllDoktor();
-        }
+        //public List<Doktor> GetAllDoktor()
+        //{
+        //    return _doktordal.GetAllDoktor();
+        //}
 
-        public void Update(Doktor doktor)
+        //public List<Doktor> GetDoktorbyBrans(string brans)
+        //{
+        //    return _doktordal.GetDoktorbyBrans(brans);
+        //}
+
+        //public void Update(Doktor doktor)
+        //{
+        //    _doktordal.Update(doktor);
+        //}
+        public List<Hasta> GetHastabyDoktor(int doktor_id)
         {
-            _doktordal.Update(doktor);
+            return _doktordal.GetHastabyDoktor(doktor_id);
         }
     }
 }

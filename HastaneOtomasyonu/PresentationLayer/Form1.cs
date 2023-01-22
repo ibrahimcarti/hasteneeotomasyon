@@ -31,10 +31,10 @@ namespace PresentationLayer
             {
                 sekreter_adi = sekreterAd,
                 sekreter_soyadi = sekreterSoyad,
-                sekreter_tel = sekretertel
+                sekreter_tel = sekretertel,
             };
 
-            SekreterManager sekreterManager = new SekreterManager(new SekreterDal());
+            SekreterManager sekreterManager = new SekreterManager(new SekreterDal(), new HastaDal(), new DoktorDal(), new RandevuDal());
             sekreterManager.Add(sekreter);
         }
 
@@ -50,10 +50,10 @@ namespace PresentationLayer
                 sekreter_id = sekreterid,
                 sekreter_adi = sekreterAd,
                 sekreter_soyadi = sekreterSoyad,
-                sekreter_tel = sekretertel
+                sekreter_tel = sekretertel,
             };
 
-            SekreterManager sekreterManager = new SekreterManager(new SekreterDal());
+            SekreterManager sekreterManager = new SekreterManager(new SekreterDal(), new HastaDal(), new DoktorDal(), new RandevuDal());
             sekreterManager.Update(sekreter);
         }
 
@@ -65,13 +65,13 @@ namespace PresentationLayer
                 sekreter_id = sekreterid
             };
 
-            SekreterManager sekreterManager = new SekreterManager(new SekreterDal());
+            SekreterManager sekreterManager = new SekreterManager(new SekreterDal(), new HastaDal(), new DoktorDal(), new RandevuDal());
             sekreterManager.Delete(sekreterid);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            SekreterManager sekreterManager = new SekreterManager(new SekreterDal());
+            SekreterManager sekreterManager = new SekreterManager(new SekreterDal(), new HastaDal(), new DoktorDal(), new RandevuDal());
             List<Sekreter> sekreterlistesi = sekreterManager.GetAllSekreter();
             listView1.Items.Clear();
             foreach (Sekreter sekreter in sekreterlistesi)
@@ -96,6 +96,27 @@ namespace PresentationLayer
             frm.ShowDialog();
             Form1 frm1 = new Form1();
             frm1.Dispose();
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+            SekreterManager sekreterManager = new SekreterManager(new SekreterDal(), new HastaDal(), new DoktorDal(), new RandevuDal());
+            List<Sekreter> sekreterlistesi = sekreterManager.GetAllSekreter();
+            listView1.Items.Clear();
+            foreach (Sekreter sekreter in sekreterlistesi)
+            {
+                ListViewItem item = new ListViewItem();
+                item.Text = sekreter.sekreter_id.ToString();
+                item.SubItems.Add(sekreter.sekreter_adi);
+                item.SubItems.Add(sekreter.sekreter_soyadi);
+                item.SubItems.Add(sekreter.sekreter_tel);
+                listView1.Items.Add(item);
+            }
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

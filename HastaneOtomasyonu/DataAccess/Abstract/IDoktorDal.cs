@@ -13,5 +13,7 @@ namespace DataAccess.Abstract
         void Update(Doktor doktor);
         void Delete(int doktor_id);
         List<Doktor> GetAllDoktor();
+        List<Doktor> GetDoktorbyBrans(string brans);
+        List<Hasta> GetHastabyDoktor(int doktor_id);
     }
 }

@@ -79,7 +79,7 @@ namespace PresentationLayer
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(166, 189);
+            this.button1.Location = new System.Drawing.Point(166, 180);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 23);
             this.button1.TabIndex = 2;
@@ -185,7 +185,7 @@ namespace PresentationLayer
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(166, 139);
+            this.maskedTextBox1.Location = new System.Drawing.Point(166, 135);
             this.maskedTextBox1.Mask = "(999) 000-0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(100, 20);
@@ -203,14 +203,14 @@ namespace PresentationLayer
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Location = new System.Drawing.Point(586, 32);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(299, 245);
+            this.panel1.Size = new System.Drawing.Size(299, 229);
             this.panel1.TabIndex = 15;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(19, 139);
+            this.label4.Location = new System.Drawing.Point(19, 135);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(127, 16);
             this.label4.TabIndex = 17;
@@ -353,6 +353,7 @@ namespace PresentationLayer
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sekreter";
+            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

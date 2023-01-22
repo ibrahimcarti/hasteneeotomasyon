@@ -30,5 +30,25 @@ namespace PresentationLayer
             FormDoktorIslemleri frm1 = new FormDoktorIslemleri();
             frm1.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormHastaIslemleri frm = new FormHastaIslemleri();
+            frm.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FormRandevuIslemleri form = new FormRandevuIslemleri();
+            form.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FormLogin frm = new FormLogin();
+            frm.ShowDialog();
+            FormAnasayfa frm1 = new FormAnasayfa();
+            frm1.Dispose();
+        }
     }
 }

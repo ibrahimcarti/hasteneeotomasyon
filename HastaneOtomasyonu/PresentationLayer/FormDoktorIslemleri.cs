@@ -36,7 +36,7 @@ namespace PresentationLayer
                 doktor_brans = doktorbrans
             };
 
-            DoktorManager doktorManager = new DoktorManager(new DoktorDal());
+            SekreterManager doktorManager = new SekreterManager(new SekreterDal(), new HastaDal(), new DoktorDal(), new RandevuDal());
             doktorManager.Add(doktor);
         }
 
@@ -47,7 +47,7 @@ namespace PresentationLayer
 
         private void button4_Click(object sender, EventArgs e)
         {
-            DoktorManager doktorManager = new DoktorManager(new DoktorDal());
+            SekreterManager doktorManager = new SekreterManager(new SekreterDal(), new HastaDal(), new DoktorDal(), new RandevuDal());
             List<Doktor> doktorlistesi = doktorManager.GetAllDoktor();
             listView1.Items.Clear();
             foreach (Doktor doktor in doktorlistesi)
@@ -79,7 +79,7 @@ namespace PresentationLayer
                 doktor_brans = doktorbrans
             };
 
-            DoktorManager doktorManager = new DoktorManager(new DoktorDal());
+            SekreterManager doktorManager = new SekreterManager(new SekreterDal(), new HastaDal(), new DoktorDal(), new RandevuDal());
             doktorManager.Update(doktor);
         }
 
@@ -91,8 +91,8 @@ namespace PresentationLayer
                 doktor_id = doktorid
             };
 
-            DoktorManager doktorManager = new DoktorManager(new DoktorDal());
-            doktorManager.Delete(doktorid);
+            SekreterManager doktorManager = new SekreterManager(new SekreterDal(), new HastaDal(), new DoktorDal(), new RandevuDal());
+            doktorManager.DeleteDoktor(doktorid);
         }
 
         private void button5_Click(object sender, EventArgs e)

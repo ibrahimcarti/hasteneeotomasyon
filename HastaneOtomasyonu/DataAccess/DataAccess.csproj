@@ -42,8 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IDoktorDal.cs" />
+    <Compile Include="Abstract\IHastaDal.cs" />
+    <Compile Include="Abstract\IRandevuDal.cs" />
     <Compile Include="Abstract\ISekreterDal.cs" />
     <Compile Include="Concrete\DoktorDal.cs" />
+    <Compile Include="Concrete\HastaDal.cs" />
+    <Compile Include="Concrete\RandevuDal.cs" />
     <Compile Include="Concrete\SekreterDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Abstract\IEntity.cs" />
     <Compile Include="Concrete\Doktor.cs" />
+    <Compile Include="Concrete\Hasta.cs" />
+    <Compile Include="Concrete\Randevu.cs" />
     <Compile Include="Concrete\Sekreter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
